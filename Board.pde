@@ -12,7 +12,7 @@ class Board {
     fill(#FFFFFF);
     textSize(30);
     textAlign(CENTER);
-    text(comment, 255, 190);
+    text(comment, 225, 190);
   }
   
   void updateResultArea(String result) {
@@ -21,6 +21,6 @@ class Board {
     fill(#FFFFFF);
     textSize(45);
     textAlign(CENTER);
-    text(result, 255, 260);
+    text(result, 225, 260);
   }
 }
